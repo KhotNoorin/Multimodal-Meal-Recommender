@@ -29,7 +29,9 @@ Whether you're craving "something with garlic and chicken, but low in calories" 
 ## 📁 Project Structure
 
 multimodal_meal_recommender/
+
 ├── data/ ← Recipe metadata & food images
+
 │ ├── recipes.csv ← Main recipe data
 │ └── images/ ← Recipe images (named <id>.jpg)
 ├── embeddings/ ← Precomputed image & text embeddings
@@ -53,7 +55,7 @@ multimodal_meal_recommender/
 
 ### 1️⃣ Install Requirements
 
-```bash: pip install -r requirements.txt
+bash: pip install -r requirements.txt
 
 ### 2️⃣ Prepare Dataset
 
