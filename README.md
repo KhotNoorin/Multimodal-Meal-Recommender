@@ -33,19 +33,33 @@ multimodal_meal_recommender/
 ├── data/ ← Recipe metadata & food images
 
 │ ├── recipes.csv ← Main recipe data
+
 │ └── images/ ← Recipe images (named <id>.jpg)
+
 ├── embeddings/ ← Precomputed image & text embeddings
+
 │ ├── image_embeddings.npy
+
 │ └── text_embeddings.npy
+
 ├── model/ ← Trained fusion model
+
 │ ├── fusion_model.pkl
+
 │ └── scaler.pkl
+
 ├── main.py ← Terminal-based recommender
+
 ├── streamlit_app.py ← Streamlit web app
+
 ├── train_fusion_model.py ← Training script for fusion model
+
 ├── extract_image_embeddings.py ← ResNet-based image embedding script
+
 ├── extract_text_embeddings.py ← BERT-based text embedding script
+
 ├── requirements.txt
+
 └── README.md
 
 
